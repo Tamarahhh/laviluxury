@@ -1,0 +1,45 @@
+.Header {
+  height: 100px;
+  background: #d9d9d9;
+  display: flex;
+  justify-content: space-around;
+}
+.Header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 20px;
+}
+
+ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+div .logo {
+  max-width: 265px;
+  height: 95px;
+  padding-left: 20px;
+}
+.logo h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 55px;
+  font-weight: bold;
+  padding: none;
+}
+
+.logo p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  top: -15px;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
