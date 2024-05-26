@@ -10,7 +10,7 @@ export default function Homepage() {
         <br /> sed do eiusmod tempor incididunt ut <br /> labore et dolore magna
         aliqua.{" "}
       </p>
-      <button type="button" className="btn btn-primary">
+      <button type="button" className="btn btn-dark">
         Contact us
       </button>
     </div>

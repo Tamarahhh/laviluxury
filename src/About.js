@@ -4,8 +4,8 @@ import "./About.css";
 export default function About() {
   return (
     <div className="row About">
-      <div className="col-md-6 image"></div>
-      <div className="col-md-6 content">
+      <div className="col-6 image"></div>
+      <div className="col-6 content">
         <h2>Who are we?</h2>
         <h3>About us</h3>
         <p>

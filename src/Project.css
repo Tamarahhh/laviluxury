@@ -1,0 +1,70 @@
+.Projects {
+  background: #d9d9d9;
+  height: 800px;
+  padding: 50px 80px;
+}
+
+.Projects h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.Projects h3 {
+  font-family: "Quintessential", serif;
+  font-size: 35px;
+  padding-top: 20px;
+}
+
+.Projects p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.Projects .content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.Projects .Apartment {
+  background-image: url(images/apartment-img.png);
+  background-size: cover;
+  width: 370px;
+  height: 260px;
+  border-radius: 10px;
+}
+
+.Projects .Salon {
+  background-image: url(images/salon-img.png);
+  background-size: cover;
+  width: 370px;
+  height: 260px;
+  border-radius: 10px;
+}
+
+.Projects .Office {
+  background-image: url(images/office-img.png);
+  background-size: cover;
+  width: 370px;
+  height: 260px;
+  border-radius: 10px;
+}
+
+.Projects .btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 400px;
+  background: #343333;
+  padding: 5px 20px;
+  border: 1px solid #343333;
+  margin-top: 50px;
+  transition: 0.3s ease-in-out;
+}
+
+.Projects .btn:hover {
+  color: #343333;
+  background: #f1f0f0;
+  border: 1px solid #343333;
+}
