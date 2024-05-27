@@ -1,0 +1,18 @@
+.Testimonial {
+  background: #d9d9d9;
+  height: 700px;
+}
+
+.Testimonial h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.Testimonial h3 {
+  font-family: "Quintessential", serif;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}

@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="row About">
       <div className="col-6 image"></div>
-      <div className="col-6 content">
+      <div className="col-6">
         <h2>Who are we?</h2>
         <h3>About us</h3>
         <p>
