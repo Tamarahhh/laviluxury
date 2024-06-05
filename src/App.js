@@ -6,7 +6,7 @@ import About from "./About";
 import Project from "./Project";
 import Service from "./Service";
 import Testimonial from "./Testimonial";
-import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Project />
       <Service />
       <Testimonial />
-      <Contact />
+      <Footer />
     </div>
   );
 }
