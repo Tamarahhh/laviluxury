@@ -29,7 +29,6 @@
 }
 
 .Projects .Apartment {
-  background-image: url(images/apartment-img.png);
   background-size: cover;
   width: 370px;
   height: 260px;
@@ -37,7 +36,6 @@
 }
 
 .Projects .Salon {
-  background-image: url(images/salon-img.png);
   background-size: cover;
   width: 370px;
   height: 260px;
@@ -45,7 +43,6 @@
 }
 
 .Projects .Office {
-  background-image: url(images/office-img.png);
   background-size: cover;
   width: 370px;
   height: 260px;
@@ -67,4 +64,36 @@
   color: #343333;
   background: #f1f0f0;
   border: 1px solid #343333;
+}
+
+@media (max-width: 480px) {
+  .Projects {
+    padding-top: 10px;
+  }
+  .Projects .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .Projects .content img {
+    width: 180px;
+    height: 100px;
+  }
+  .Projects h2 {
+    font-size: 28px;
+  }
+
+  .Projects h3 {
+    font-size: 24px;
+  }
+
+  .Projects p {
+    font-size: 18px;
+  }
+
+  .Projects .btn {
+    margin: 0;
+    padding: 3px 10px;
+  }
 }

@@ -7,23 +7,23 @@ const testimonials = [
   {
     image: tamaraboboye,
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare.",
+      "Their attention to detail and creativity is unmatched. Our new salon looks stunning thanks to LaviLuxury.",
     name: "Tamara Boboye",
-    title: "Business Owner",
+    title: "Owner, Beauty salon",
   },
   {
     image: tamaraboboye,
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare.",
+      "LaviLuxury transformed our office space into a modern and functional environment. Highly recommended",
     name: "Precious Damilola",
     title: "Real Estate Agent",
   },
   {
     image: tamaraboboye,
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor vitae purus faucibus ornare.",
+      "The team at LaviLuxury is professional and talented. Our home redesign exceeded all our expectations.",
     name: "Happiness Taga",
-    title: "Home Owner",
+    title: "Homeowner",
   },
 ];
 

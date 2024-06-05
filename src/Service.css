@@ -51,43 +51,61 @@
 }
 
 .service-content .management {
-  background-image: url(images/management.png);
   background-size: cover;
   width: 60px;
   height: 60px;
 }
 
 .service-content .planning {
-  background-image: url(images/planning.png);
   background-size: cover;
   width: 60px;
   height: 60px;
 }
 
 .service-content .styling {
-  background-image: url(images/styling.png);
   background-size: cover;
   width: 60px;
   height: 60px;
 }
 
 .service-content .consultation {
-  background-image: url(images/consultation.png);
   background-size: cover;
   width: 60px;
   height: 60px;
 }
 
 .service-content .decor {
-  background-image: url(images/decor.png);
   background-size: cover;
   width: 60px;
   height: 60px;
 }
 
 .service-content .renovation {
-  background-image: url(images/renovation.png);
   background-size: cover;
   width: 60px;
   height: 60px;
+}
+
+@media (max-width: 480px) {
+  .Service h2 {
+    font-size: 20px;
+  }
+
+  .Service h3 {
+    font-size: 20px;
+  }
+
+  .service-content .box {
+    width: 150px;
+    height: 130px;
+    padding: 8px;
+  }
+
+  .box h2 {
+    font-size: 15px;
+  }
+
+  .box p {
+    display: none;
+  }
 }
