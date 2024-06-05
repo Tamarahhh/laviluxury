@@ -32,12 +32,12 @@ export default function Footer() {
           <a href="/">Blog</a>
         </div>
         <div className="col-4 subscribe-form">
-          <h2>Subscribe for a 5mins FREE consultation</h2>
+          <h2>Subscribe for 5mins FREE consultation</h2>
           <Form>
             <Form.Group>
               <Form.Control
                 type="email"
-                placeholder="Enter your your email address"
+                placeholder="Enter your email address"
                 className="email-input"
               />
             </Form.Group>

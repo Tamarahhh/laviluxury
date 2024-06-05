@@ -5,6 +5,7 @@ import Homepage from "./Homepage";
 import About from "./About";
 import Project from "./Project";
 import Service from "./Service";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Testimonial from "./Testimonial";
 import Footer from "./Footer";
 
