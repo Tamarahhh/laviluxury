@@ -19,9 +19,9 @@ export default function Footer() {
               eiusmod tempor incididunt ut labore <br /> et dolore magna aliqua.
             </p>
             <div className="socials">
-              <a href="/" className="instagram"></a>
-              <a href="/" className="twitter"></a>
-              <a href="/" className="whatsapp"></a>
+              <a href="/" className="instagram" aria-label="Instagram"></a>
+              <a href="/" className="twitter" aria-label="Twitter"></a>
+              <a href="/" className="whatsapp" aria-label="WhatsApp"></a>
             </div>
           </div>
           <div className="col-md-4 links">
