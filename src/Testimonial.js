@@ -29,29 +29,31 @@ const testimonials = [
 
 export default function Testimonial() {
   return (
-    <div className="Testimonial">
-      <h3>What our clients say</h3>
-      <h2>Testimonials</h2>
-      <Carousel>
-        {testimonials.map((testimonial, index) => (
-          <Carousel.Item key={index}>
-            <div className="d-flex justify-content-center">
-              <div className="card">
-                <div className="card-body">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                    className="mb-3"
-                  />
-                  <p className="card-text">"{testimonial.quote}"</p>
-                  <h5 className="card-title mt-4">{testimonial.name}</h5>
-                  <p className="card-subtitle">{testimonial.title}</p>
+    <div className="container">
+      <div className="Testimonial">
+        <h3>What our clients say</h3>
+        <h2>Testimonials</h2>
+        <Carousel>
+          {testimonials.map((testimonial, index) => (
+            <Carousel.Item key={index}>
+              <div className="d-flex justify-content-center">
+                <div className="card">
+                  <div className="card-body">
+                    <img
+                      src={testimonial.image}
+                      alt={testimonial.name}
+                      className="mb-3"
+                    />
+                    <p className="card-text">"{testimonial.quote}"</p>
+                    <h5 className="card-title mt-4">{testimonial.name}</h5>
+                    <p className="card-subtitle">{testimonial.title}</p>
+                  </div>
                 </div>
               </div>
-            </div>
-          </Carousel.Item>
-        ))}
-      </Carousel>
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
     </div>
   );
 }
