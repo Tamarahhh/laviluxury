@@ -1,9 +1,9 @@
 import React from "react";
-import "./App.css";
+import "./Homepage.css";
 
 export default function Homepage() {
   return (
-    <div className="home">
+    <div className="home text-center">
       <h1>Make Your Space a Masterpiece</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,

@@ -1,0 +1,59 @@
+.home {
+  background-image: url(./images/homepage-image.png);
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+  padding: 230px 50px;
+}
+
+.home h1 {
+  font-family: "Quintessential", serif;
+  font-size: 60px;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+
+.home p {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.home .btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 400px;
+  background: #343333;
+  opacity: 0.8;
+  padding: 10px 25px;
+  border: 1px solid #343333;
+  transition: 0.3s ease-in-out;
+}
+
+.home .btn:hover {
+  color: #343333;
+  background: #f1f0f0;
+  border: 1px solid #343333;
+}
+
+@media (max-width: 900px) {
+  .home {
+    padding: 240px 10px;
+  }
+
+  .home h1 {
+    font-size: 45px;
+  }
+
+  .home p {
+    font-size: 20px;
+  }
+
+  .home .btn {
+    font-size: 20px;
+  }
+}

@@ -85,3 +85,33 @@
   width: 60px;
   height: 60px;
 }
+
+@media (max-width: 900px) {
+  .Service {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .Service h2 {
+    font-size: 20px;
+  }
+
+  .Service h3 {
+    font-size: 20px;
+  }
+
+  .Service p {
+    font-size: 15px;
+  }
+
+  .Service .box {
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .Service img {
+    display: none;
+  }
+}

@@ -20,6 +20,7 @@
 .contact-text {
   text-align: left;
   padding-top: 15px;
+  opacity: 0.9;
 }
 
 .socials .instagram {
@@ -88,4 +89,40 @@
 
 .Footer .copyright {
   padding-top: 35px;
+}
+
+@media (max-width: 900px) {
+  .Footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+  .Footer .logo {
+    padding: 0;
+  }
+
+  .logo h1 {
+    font-size: 50px;
+  }
+
+  .logo p {
+    font-size: 18px;
+  }
+
+  .contact-text {
+    font-size: 14px;
+    padding-top: 0;
+  }
+
+  .Footer .socials {
+    padding-top: 10px;
+    gap: 45px;
+  }
+
+  .links h2 {
+    font-size: 25px;
+  }
+
+  .subscribe-form h2 {
+    font-size: 18px;
+  }
 }
