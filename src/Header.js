@@ -5,7 +5,7 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header className="Header navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <header className="Header navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a className="navbar-brand logo mb-4" href="/">
           <h1>LaviLuxury</h1>
