@@ -25,11 +25,7 @@ export default function Project() {
           <p>Lagos, Nigeria</p>
         </div>
         <div className="col-sm-4">
-          <img
-            className="col-4 Office img-fluid"
-            src={office}
-            alt="office space"
-          />
+          <img className=" Office img-fluid" src={office} alt="office space" />
           <h3>Office Space</h3>
           <p>Abuja, Nigeria</p>
         </div>
