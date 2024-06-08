@@ -38,17 +38,12 @@
   .About {
     text-align: center;
     padding: 80px 10px;
+    height: 100%;
   }
 
   .About h2 {
     font-size: 20px;
   }
-
-  .About img {
-    width: 300;
-    height: 300px;
-  }
-
   .About h3 {
     font-size: 20px;
   }

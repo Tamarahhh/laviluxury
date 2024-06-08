@@ -5,7 +5,7 @@ import about from "./images/about.png";
 export default function About() {
   return (
     <div className="row About" id="about">
-      <div className="col d-none d-md-block image">
+      <div className="col image">
         <img src={about} className="img-fluid" alt="sofa" />
       </div>
       <div className="col-md-6">

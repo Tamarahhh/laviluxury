@@ -65,3 +65,27 @@
   background: #f1f0f0;
   border: 1px solid #343333;
 }
+
+@media (max-width: 500px) {
+  .Projects {
+    text-align: center;
+    padding: 40px 0;
+    height: 100%;
+  }
+
+  .Projects h2 {
+    font-size: 20px;
+  }
+
+  .Projects h3 {
+    font-size: 20px;
+  }
+
+  .Projects p {
+    font-size: 15px;
+  }
+
+  .Projects .content {
+    padding: 0;
+  }
+}

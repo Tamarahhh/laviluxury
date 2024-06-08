@@ -94,7 +94,8 @@
 @media (max-width: 900px) {
   .Footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 40px;
+    height: 100%;
   }
   .Footer .logo {
     padding: 0;
@@ -114,15 +115,17 @@
   }
 
   .Footer .socials {
-    padding-top: 10px;
+    padding-top: 5px;
     gap: 45px;
   }
 
   .links h2 {
     font-size: 25px;
+    padding-top: 20px;
   }
 
   .subscribe-form h2 {
-    font-size: 18px;
+    font-size: 15px;
+    padding-top: 20px;
   }
 }
