@@ -2,12 +2,14 @@
   height: 100px;
   background: #d9d9d9;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
 }
 .Header ul {
   display: flex;
-  justify-content: space-between;
-  padding: 30px 5px 30px 20px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
   gap: 20px;
 }
 
@@ -15,15 +17,15 @@ ul li {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
+  list-style: none;
 }
+
 .logo {
   max-width: 265px;
   height: 95px;
   padding-left: 15px;
 }
+
 .logo h1 {
   font-family: "Dancing Script", cursive;
   font-size: 60px;
@@ -48,4 +50,22 @@ li a {
 
 li a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .Header {
+    padding: 50px 0;
+  }
+
+  ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+
+  ul li {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
 }

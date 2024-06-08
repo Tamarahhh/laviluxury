@@ -43,6 +43,7 @@
 @media (max-width: 900px) {
   .home {
     padding: 240px 10px;
+    height: 100%;
   }
 
   .home h1 {
